@@ -5,7 +5,7 @@ import config
 FACEBOOK_POST_PHOTO_API = 'https://graph.facebook.com/v5.0/{pageId}/feed'
 FACEBOOK_PHOTO_API = 'https://graph.facebook.com/v5.0/{pageId}/photos';
 
-options = {'width': config.IMG_WIDTH, 'disable-smart-width': ''}
+options = {'width': config.IMG_WIDTH, "xvfb": ""}
 
 
 photos = []
